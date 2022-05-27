@@ -4,7 +4,7 @@ import "./Sidebar.css";
 import {
   ChatBubbleOutline,
   DonutLargeOutlined,
-  MoreHorizOutlined,
+  MoreVert,
   SearchOutlined,
 } from "@mui/icons-material";
 import SidebarChat from "./SidebarChat";
@@ -22,7 +22,7 @@ function Sidebar() {
             <ChatBubbleOutline />
           </IconButton>
           <IconButton>
-            <MoreHorizOutlined />
+            <MoreVert />
           </IconButton>
         </div>
       </div>
@@ -33,7 +33,7 @@ function Sidebar() {
         </div>
       </div>
       <div className="sidebar_chats">
-        <SidebarChat />
+        <SidebarChat addNewChat />
         <SidebarChat />
         <SidebarChat />
         <SidebarChat />
