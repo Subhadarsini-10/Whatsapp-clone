@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# WhatsApp_Clone web app using ReactJS and firebase-auth
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To see the project output click on the below ##below link:
 
-## Available Scripts
+## https://whatsapp-clone10.netlify.app/
 
-In the project directory, you can run:
+## Techstack used:
 
-### `npm start`
+1.HTML
+2.CSS
+3.Javascript
+4.ReactJS
+5.Redux
+6.Material-UI
+7.Firebase-auth
+8.Firebase-db
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Description
+### 1. HTML, CSS, and JavaScript:
+HTML provides the structure, CSS styles the elements, and JavaScript adds interactivity to the web pages. These foundational technologies are essential for creating the basic layout and behavior of your WhatsApp clone.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. ReactJS:
+ReactJS is a popular JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the state of your application efficiently. In your project, you would use React to design the user interface of your WhatsApp clone, breaking down the application into smaller components for easier management and maintenance.
 
-### `npm test`
+### 3. Redux:
+Redux is a state management library commonly used with React applications. It helps you manage the state of your application in a predictable way, making it easier to debug and test. In your WhatsApp clone, Redux can be used to handle application-wide state, such as user authentication status and chat messages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 4. Material-UI:
+Material-UI is a popular React UI framework that provides pre-designed components and styles following Google's Material Design guidelines. By using Material-UI, you can create a visually appealing and responsive user interface for your WhatsApp clone without having to design every component from scratch.
 
-### `npm run build`
+### 5. Firebase Authentication (Firebase-auth):
+Firebase Authentication is a service provided by Google Firebase that allows you to authenticate users in your application. It provides various authentication methods like email/password, Google, Facebook, etc. In your WhatsApp clone, Firebase Authentication would enable users to sign in securely, ensuring that only authorized users can access the messaging features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 6. Firebase Realtime Database (Firebase-db):
+Firebase Realtime Database is a NoSQL cloud database provided by Firebase. It allows you to store and sync data in real-time, making it ideal for real-time applications like messaging apps. In your WhatsApp clone, Firebase Realtime Database can be used to store chat messages, user data, and other relevant information. Messages sent by one user can be instantly updated and visible to others in the conversation due to the real-time synchronization feature of Firebase.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+I have designed the user interface using HTML, CSS, and React components and managed the state of the application using React's built-in state management and Redux. Material-UI components is used for designing a visually appealing user interface. Firebase Authentication would handle user sign-ins and ensure secure access, while Firebase Realtime Database would store and synchronize chat messages in real-time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This combination of technologies enables you to create a feature-rich messaging application with real-time capabilities, ensuring a seamless user experience similar to WhatsApp.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
