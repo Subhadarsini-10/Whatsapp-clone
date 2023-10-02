@@ -16,6 +16,9 @@ To see the project output click on the below ##below link:
 8.Firebase-db
 
 ## Description
+
+You can add a new chat and can also send messages in the chatbox.
+
 ### 1. HTML, CSS, and JavaScript:
 HTML provides the structure, CSS styles the elements, and JavaScript adds interactivity to the web pages. These foundational technologies are essential for creating the basic layout and behavior of your WhatsApp clone.
 
