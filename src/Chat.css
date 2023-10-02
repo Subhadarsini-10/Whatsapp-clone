@@ -50,9 +50,31 @@
 }
 .chat_body {
   flex: 1;
-  background-image: url("/image/bcg.png");
+  background-image: url("https://ghostcode.in/content/images/wordpress/2016/09/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg");
   background-repeat: repeat;
   background-position: center;
   padding: 30px;
   overflow: scroll;
+}
+.chat_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+  border-top: 1px solid lightgray;
+}
+.form{
+  flex: 1;
+  display: flex;
+}
+.form button{
+  display: none;
+}
+.form input{
+  background-color: white;
+  border: none;
+  border-radius: 39px;
+  flex: 1;
+  padding: 10px;
 }
